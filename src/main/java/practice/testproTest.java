@@ -1,8 +1,10 @@
 package practice;
 
+import org.testng.annotations.Test;
+
 public class testproTest {
-	public static void main(String[] args) {
-		
+	@Test
+	public void sample() {
 		System.out.println("pro-1");
 		System.out.println("pro-2");
 	}
